@@ -1,76 +1,81 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/vibrawood3.jpg";
+import project2 from "../assets/projects/BookSearchEngine.png";
+import project3 from "../assets/projects/portfolio-pic.png";
+import project4 from "../assets/projects/XP-Archive.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a full stack developer eager to advance into a professional career path. I am disciplined in MongoDb, Express, React, Node, Apollo GraphQl, Postgresql and more. Confident with my stack, I am ready to tackle any challenge laid in front of me with intent to create the most ideal user experiences technology has to offer. I continue to hone my skills everyday as I work toward the ability to achieve this goal.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `What started from a required intro to coding class, my coding journey has developed into my biggest passion. Everyone has a desire to find fulfillment in their work, I am among the few who are lucky enough to truly find it. I prefer to stay continuously challenged due to my addiction to expanding my knowledge base in order to provide cutting edge solutions to users around the globe. The reward comes with the solution, and the more difficult the challenge, the greater the reward. I work best in team based environments and love learning from other developers. Outside of the coding world, I am physically active, family oriented, and always eager to try new things.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    role: "Junior Full Stack Developer",
+    company: "EdEx University of Central Florida",
+    description: `I completed a 12 week comprehensive bootcamp that `,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2022 - 2023",
+  //   role: "Frontend Developer",
+  //   company: "Adobe",
+  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+  // },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Vibrawood Guitars",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "Tailwind", "React", "Node.js", "MongoDB", "Apollo GraphQL", "JWT", "Express"],
+    url: 'https://vibrawood-guitars.onrender.com/'
   },
   {
-    title: "Task Management App",
+    title: "Book Search Engine",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An api based application that allows a user to search for any book and get live results.",
+    technologies: ["HTML", "Bootstrap", "React", "Node.js", "MongoDb", "Apollo GraphQL", "JWT", "Express"],
+    url: 'https://book-search-engine-lilac.vercel.app/'
+  },
+  {
+    title: "XP-Archive",
+    image: project4,
+    description:
+      "A social gaming platform that allows users to create profiles and add games to a wishlist and library using REST methods.",
+    technologies: ["HTML", "Tailwind", "Node.js", "Express", "PostegreSQL", "Handlebars"],
+    url: 'https://the-wild-coders.onrender.com/'
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "React", "Tailwind", "Framer Motion"],
+    url: 'https://portfolio-snowy-rho-50.vercel.app/'
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Grand Rapids, MI",
+  phoneNo: "616-916-7564",
+  email: "muscarellaanthony1@gmail.com",
 };
