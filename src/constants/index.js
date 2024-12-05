@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Full-Stack Developer",
     company: "Volli-Up",
-    description: "At Volli-Up, I develop and implement features using TypeScript, PostgreSQL, and React Native, contributing to both the front-end andback-end. My responsibilities include designing and building RESTful endpoints, as well as crafting user interfaces that align seamlessly with the app's overall theme and design standards. I ensure each feature delivers a cohesive, high-quality user experience.",
+    description: "At Volli-Up, I develop and implement features using TypeScript, PostgreSQL, and React Native, contributing to both the front-end and back-end. My responsibilities include designing and building RESTful endpoints, as well as crafting user interfaces that align seamlessly with the app's overall theme and design standards. I ensure each feature delivers a cohesive, high-quality user experience.",
     technologies: ["React Native", "Typescript", "Postgres"],
   }
 ];
