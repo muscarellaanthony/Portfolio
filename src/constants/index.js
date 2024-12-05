@@ -1,74 +1,53 @@
 import project1 from "../assets/projects/vibrawood3.jpg";
-import project2 from "../assets/projects/BookSearchEngine.png";
-import project3 from "../assets/projects/portfolio-pic.png";
-import project4 from "../assets/projects/XP-Archive.png";
+import project2 from "../assets/projects/socialmediaapp.jpg";
+import project3 from "../assets/projects/Volli-Up.png";
+import project4 from "../assets/projects/portfolio-pic.png";
 
-export const HERO_CONTENT = `I am a full stack developer eager to advance into a professional career path. I am disciplined in MongoDb, Express, React, Node, Apollo GraphQl, Postgresql and more. Confident with my stack, I am ready to tackle any challenge laid in front of me with intent to create the most ideal user experiences technology has to offer. I continue to hone my skills everyday as I work toward the ability to achieve this goal.`;
+export const HERO_CONTENT = `As a dedicated full-stack developer, I am committed to advancing my career and delivering impactful solutions. Proficient in MongoDB, Express, React, Node, Apollo GraphQL, PostgreSQL, and more, I am confident in my technical stack and eager to tackle new challenges. My goal is to craft exceptional user experiences through innovative technology, and I continuously refine my skills to stay at the forefront of the ever-evolving tech landscape.`;
 
-export const ABOUT_TEXT = `What started from a required intro to coding class, my coding journey has developed into my biggest passion. Everyone has a desire to find fulfillment in their work, I am among the few who are lucky enough to truly find it. I prefer to stay continuously challenged due to my addiction to expanding my knowledge base in order to provide cutting edge solutions to users around the globe. The reward comes with the solution, and the more difficult the challenge, the greater the reward. I work best in team based environments and love learning from other developers. Outside of the coding world I am a passionate swim coach working hard to help dozens of kids lead healthy lives.`;
+export const ABOUT_TEXT = `What began as a required intro to coding class has grown into my greatest passion. While many seek fulfillment in their work, I am fortunate enough to have truly found it in software development. I thrive on being continuously challenged, driven by a deep curiosity to expand my knowledge and deliver innovative solutions for users worldwide. The true reward lies in solving complex problems, and the greater the challenge, the more satisfying the outcome. I excel in collaborative team environments and am always eager to learn from fellow developers. Outside of coding, I am a dedicated swim coach, helping young athletes lead healthier lives and reach their full potential.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Junior Full Stack Developer",
-    company: "EdEx University of Central Florida",
-    description: `I completed a 12 week comprehensive bootcamp that `,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  // {
-  //   year: "2022 - 2023",
-  //   role: "Frontend Developer",
-  //   company: "Adobe",
-  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  // },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
+    year: "2024 - Present",
+    role: "Full-Stack Developer",
+    company: "Volli-Up",
+    description: "At Volli-Up, I develop and implement features using TypeScript, PostgreSQL, and React Native, contributing to both the front-end andback-end. My responsibilities include designing and building RESTful endpoints, as well as crafting user interfaces that align seamlessly with the app's overall theme and design standards. I ensure each feature delivers a cohesive, high-quality user experience.",
+    technologies: ["React Native", "Typescript", "Postgres"],
+  }
 ];
 
 export const PROJECTS = [
+  {
+    title: "AM Social Media App",
+    image: project2,
+    description:
+      "Functional social media app where users can signup, create posts, and follow/block their friends. Mobile friendly. Lots of fun. Follow me! @anthony_muscarella",
+    technologies: ["Typescript", "Tailwind", "Next.js", "Prisma ORM", "Clerk"],
+    url: 'https://amsocialmedia.net/'
+  },
+  {
+    title: "Volli-Up",
+    image: project3,
+    description:
+      "An app that hosts volleyball tournaments, creates brackets, and updates scores live as the competition progreses. Currently branching out to additional sports.",
+    technologies: ["React Native", "Typescript", "PostegreSQL"],
+    url: 'https://www.volli-up.com/'
+  },
   {
     title: "Vibrawood Guitars",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "Tailwind", "React", "Node.js", "MongoDB", "Apollo GraphQL", "JWT", "Express"],
+    technologies: ["Tailwind", "React", "MongoDB", "Apollo GraphQL", "JWT", "Express.js"],
     url: 'https://vibrawood-guitars.onrender.com/'
   },
   {
-    title: "Book Search Engine",
-    image: project2,
-    description:
-      "An api based application that allows a user to search for any book and get live results.",
-    technologies: ["HTML", "Bootstrap", "React", "Node.js", "MongoDb", "Apollo GraphQL", "JWT", "Express"],
-    url: 'https://book-search-engine-lilac.vercel.app/'
-  },
-  {
-    title: "XP-Archive",
+    title: "Portfolio Website",
     image: project4,
     description:
-      "A social gaming platform that allows users to create profiles and add games to a wishlist and library using REST methods.",
-    technologies: ["HTML", "Tailwind", "Node.js", "Express", "PostegreSQL", "Handlebars"],
-    url: 'https://the-wild-coders.onrender.com/'
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "React", "Tailwind", "Framer Motion"],
+    technologies: ["React", "Tailwind", "Framer Motion"],
     url: 'https://portfolio-snowy-rho-50.vercel.app/'
   },
 
